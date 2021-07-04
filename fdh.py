@@ -1,4 +1,3 @@
-#fgh - хэш функция, RSA - эцп
 from hashlib import sha256
 import random
 
@@ -78,7 +77,6 @@ def decrypt(encryptHashM, d, n):
                 
 hashM = 'helloWorld form jupyter notebook'
 print(hashMassage(hashM))
-#print(len(hashM))
 hashM = hashMassage(hashM)
 print(hex(int(hashM, 16)))
 primes = get_primes(23572)
